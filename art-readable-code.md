@@ -137,3 +137,26 @@ This chapter illustrates a simple technique for organizing your code: **do only 
 If you have code that's difficult to read, try to list all of the tasks it's doing. Some of these tasks might easily become separate functions (or classes). Others might just become logical "paragraphs" within a single function. The exact details of how you separate these task isn't as important as the fact that they're separated. The hard part is accurately describing all the little things your program is doing.
 
 ### 12 Turning Thoughts into Code
+
+This chapter discussed the simple technique of describing your program in plain English and using that description to help you write more natural code. This technique is deceptively simple, but very powerful. Looking at the words and phrases used in your description can help you identify which subproblems to break off.
+
+But this process of "saying things in plain English" is applicable outside of just writing code. For example, one college computer lab policy states that when a student needs help debugging their program, they first have to explain the problem to a dedicated teddy bear in the corner of the room. Surprisingly, just describing the problem aloud can help the student fiqure out a solution. This technique is called "rubber ducking."
+
+Another way to look at this: if you can't describe the problem or your design in words, something is probably missing or undefined. Getting a program (or any idea) into words can really force it into shape.
+
+### 13 Writing Less Code
+
+> Adventure, exictment—a Jedi craves not these things.  —Yoda
+
+This chapter is about writing as little new code as possible. Each new line of code needs to be tested, documented, and maintained. Further, the more code in your codebase, the "heavier" it gets and harder it is to develop in.
+
+You can avoid writing new lines of code by:
+
+* Eliminating nonessential features from your product and not overengineering.
+* Rethinking requirements to solve the easiest version og the problem that still gets the job done.
+* Staying familiar with standard libraries by periodically reading through their entire APIs.
+
+## Part Four: Selected Topics
+
+### 14 Testing and Readability
+
