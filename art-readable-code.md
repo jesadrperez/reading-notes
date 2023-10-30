@@ -160,3 +160,11 @@ You can avoid writing new lines of code by:
 
 ### 14 Testing and Readability
 
+In test code, readability is still very important. If your test are very readable, they will in turn be very writable, so people will add more of them. Also, if you design your real code to be easy to test, your code will have a better design overall.
+
+Here are specific points on how to improve your tests:
+
+* The top level of each test should be as concise as possible; ideally, each test input/output can be described in one line of code.
+* If your test fails, it should emit an error message that makes the bug easy to track down and fix.
+* Use the simplest test inputs that completely exercise your code.
+* Give your test functions a fully descriptive name so it's clear what each is testing. Instead of `Test1()`, use a name like `Test_<FunctionName>_<Situtation>`.
